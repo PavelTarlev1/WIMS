@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Commands\Commands\**" />
+    <Compile Remove="Commands\CreateCommands\**" />
+    <EmbeddedResource Remove="Commands\Commands\**" />
+    <EmbeddedResource Remove="Commands\CreateCommands\**" />
+    <None Remove="Commands\Commands\**" />
+    <None Remove="Commands\CreateCommands\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Jsons\" />
+  </ItemGroup>
+
+</Project>

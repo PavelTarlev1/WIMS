@@ -1,0 +1,723 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ManagementSystem.Core.Providers.BoolVariables" Collapsed="true">
+    <Position X="3.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIAAA=</HashCode>
+      <FileName>Core\Providers\BoolVariables.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Core.Providers.CommentJsonConverter&lt;Comments&gt;" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Core\Providers\CommentJsonConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Core.Providers.Database" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCEaEAEAOJAUUIQwNEAAKCBgABiAAIAEgBAAALgYAAE=</HashCode>
+      <FileName>Core\Providers\Database.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.213" Collapsed="true" />
+  </Class>
+  <Class Name="ManagementSystem.Core.Providers.InstanceHolder" BaseTypeListCollapsed="true">
+    <Position X="1.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAEAAAAAAIAAABAAABAAoAAAAQBAAAAEAAAA=</HashCode>
+      <FileName>Core\Providers\InstanceHolder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ManagementSystem.Core.Providers.Menu" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Core\Providers\Menu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.196" Collapsed="true" />
+  </Class>
+  <Class Name="ManagementSystem.Core.Providers.Parser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAABAAAA=</HashCode>
+      <FileName>Core\Providers\Parser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ManagementSystem.Core.Providers.WorkItemJsonConverter&lt;WorkItem&gt;" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Core\Providers\WorkItemJsonConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Core.Providers.ConsoleReader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Readers\ConsoleReader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.213" Collapsed="true" />
+  </Class>
+  <Class Name="ManagementSystem.Core.Providers.ConsoleWriter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Core\Writer\ConsoleWriter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.196" Collapsed="true" />
+  </Class>
+  <Class Name="ManagementSystem.Core.Factories.Factory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACgAAAAAIAAAAAAAAAAAAAAAAAAAhAAEAAAAAA=</HashCode>
+      <FileName>Core\Factories\Factory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.213" Collapsed="true" />
+  </Class>
+  <Class Name="ManagementSystem.Core.UserInput.BoardInput" Collapsed="true">
+    <Position X="1.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAACAAAAgAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Core\UserInput\BoardInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Core.UserInput.BugInput" Collapsed="true">
+    <Position X="6" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQIAAAAAAAAAAAAAAAABAAAAAAAAEAAAAACAAA=</HashCode>
+      <FileName>Core\UserInput\BugInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Core.UserInput.FeedbackInput" Collapsed="true">
+    <Position X="10.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Core\UserInput\FeedbackInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Core.UserInput.ListInput" Collapsed="true">
+    <Position X="15" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAgEAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\UserInput\ListInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Core.UserInput.MemberInput" Collapsed="true">
+    <Position X="17.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAABAACAAABAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Core\UserInput\MemberInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Core.UserInput.StoryInput" Collapsed="true">
+    <Position X="3.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAUAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Core\UserInput\StoryInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Core.UserInput.TeamInput" Collapsed="true">
+    <Position X="8.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAJAAAAACAQAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\UserInput\TeamInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Core.UserInput.UserInput" Collapsed="true">
+    <Position X="9.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIAAAEAAAAA=</HashCode>
+      <FileName>Core\UserInput\UserInput.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ManagementSystem.Core.UserInput.WorkItemInput" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAIAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Core\UserInput\WorkItemInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Core.Engine" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAKAAAAAAAAAAAAAABAAAAAAARAAAAEAAAAA=</HashCode>
+      <FileName>Core\Engine.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Bottom" Position="0.203" Collapsed="true" />
+  </Class>
+  <Class Name="ManagementSystem.Core.PrintMessages" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAFIKhAzAA4BIEMISBAREAgS4CRQJZAKACEMgWDckI=</HashCode>
+      <FileName>Core\PrintMessages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.Command" Collapsed="true">
+    <Position X="20.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgAgAAAAQBAAAAIBAAAAAgAAAABAAAAEAAAAg=</HashCode>
+      <FileName>Commands\Abstract\Command.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="ManagementSystem.Commands.LoginCommand" Collapsed="true">
+    <Position X="4" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\MemberCommands\LoginCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.RegisterCommand" Collapsed="true">
+    <Position X="1.5" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\MemberCommands\RegisterCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.ShowMenuCommand" Collapsed="true">
+    <Position X="1.5" Y="18.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ShowMenuCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.BoardCommands.AddBugToBoard" Collapsed="true">
+    <Position X="38" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\BoardCommands\AddBugToBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.BoardCommands.AddFeedbackToBoard" Collapsed="true">
+    <Position X="36.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\BoardCommands\AddFeedbackToBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.BoardCommands.AddStoryToBoard" Collapsed="true">
+    <Position X="38" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\BoardCommands\AddStoryToBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.BoardCommands.CreateBoardCommand" Collapsed="true">
+    <Position X="1.5" Y="9.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\BoardCommands\CreateBoardCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.BoardCommands.ShowAllBoardsCommand" Collapsed="true">
+    <Position X="4" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\BoardCommands\ShowAllBoardsCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.BoardCommands.ShowBoardActivityCommand" Collapsed="true">
+    <Position X="6.75" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\BoardCommands\ShowBoardActivityCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.BugCommands.ChangeBugPriorityCommand" Collapsed="true">
+    <Position X="9.25" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\BugCommands\ChangeBugPriorityCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.BugCommands.ChangeBugSeverityCommand" Collapsed="true">
+    <Position X="6.75" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\BugCommands\ChangeBugSeverityCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.BugCommands.ChangeBugStatusCommand" Collapsed="true">
+    <Position X="4" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\BugCommands\ChangeBugStatusCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.BugCommands.CreateBugCommand" Collapsed="true">
+    <Position X="1.5" Y="11" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\BugCommands\CreateBugCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.FeedbackCommands.ChangeFeedbackRatingCommand" Collapsed="true">
+    <Position X="4" Y="12.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\FeedbackCommands\ChangeFeedbackRatingCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.FeedbackCommands.ChangeFeedbackStatusCommand" Collapsed="true">
+    <Position X="7" Y="12.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\FeedbackCommands\ChangeFeedbackStatusCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.FeedbackCommands.CreateFeedbackCommand" Collapsed="true">
+    <Position X="1.5" Y="12.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\FeedbackCommands\CreateFeedbackCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.ListCommands.FilterWorkItemByAssigneeCommand" Collapsed="true">
+    <Position X="4" Y="17.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ListCommands\FilterWorkItemByAssigneeCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.ListCommands.SortWorkItemsCommand" Collapsed="true">
+    <Position X="7" Y="15.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ListCommands\SortWorkItemsCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.List.FilterWorkItemByStatusCommand" Collapsed="true">
+    <Position X="1.5" Y="17.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ListCommands\FilterWorkItemByStatusCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.List.ListAllItemsCommand" Collapsed="true">
+    <Position X="4" Y="16.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ListCommands\ListAllItemsCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.List.ListWorkItemsCommand" Collapsed="true">
+    <Position X="1.5" Y="16.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ListCommands\ListWorkItemsCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.MemberCommands.CreateMemberCommand" Collapsed="true">
+    <Position X="1.5" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\MemberCommands\CreateMemberCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.MemberCommands.ShowAllMembersCommand" Collapsed="true">
+    <Position X="6.75" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\MemberCommands\ShowAllMembersCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.MemberCommands.ShowMemberHistoryCommand" Collapsed="true">
+    <Position X="9.5" Y="8.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\MemberCommands\ShowMemberHistoryCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.Commands.ChangeStoryPriorityCommand" Collapsed="true">
+    <Position X="4" Y="13.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\StoryCommands\ChangeStoryPriorityCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.Commands.CreateStoryCommand" Collapsed="true">
+    <Position X="1.5" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\StoryCommands\CreateStoryCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.StoryCommands.ChangeStorySizeCommand" Collapsed="true">
+    <Position X="7" Y="13.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\StoryCommands\ChangeStorySizeCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.StoryCommands.ChangeStoryStatusCommand" Collapsed="true">
+    <Position X="10.25" Y="13.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\StoryCommands\ChangeStoryStatusCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.TeamCommands.AddBoardToTeam" Collapsed="true">
+    <Position X="36.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\TeamCommands\AddBoardToTeam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.TeamCommands.AddMemberToTeamCommand" Collapsed="true">
+    <Position X="4" Y="8.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\TeamCommands\AddMemberToTeamCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.TeamCommands.CreateTeamCommand" Collapsed="true">
+    <Position X="1.5" Y="14.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\TeamCommands\CreateTeamCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.TeamCommands.ShowAllTeamActivityCommand" Collapsed="true">
+    <Position X="4" Y="14.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\TeamCommands\ShowAllTeamActivityCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.TeamCommands.ShowAllTeamMembersCommand" Collapsed="true">
+    <Position X="7" Y="14.25" Width="2.75" />
+    <InheritanceLine Type="ManagementSystem.Commands.Command" FixedToPoint="true">
+      <Path>
+        <Point X="21.102" Y="14.25" />
+        <Point X="21.102" Y="14.094" />
+        <Point X="20.474" Y="14.094" Type="JumpStart" />
+        <Point X="20.307" Y="14.094" Type="JumpEnd" />
+        <Point X="9.75" Y="14.094" />
+        <Point X="9.75" Y="14.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\TeamCommands\ShowAllTeamMembersCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.TeamCommands.ShowAllTeamsCommand" Collapsed="true">
+    <Position X="10.25" Y="14.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\TeamCommands\ShowAllTeamsCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.WorkItemCommand.AddCommentToWorkItemCommand" Collapsed="true">
+    <Position X="13" Y="14.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\WorkItemCommand\AddCommentToWorkItemCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.WorkItemCommand.AssignWorkItemCommand" Collapsed="true">
+    <Position X="1.5" Y="15.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\WorkItemCommand\AssignWorkItemCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.WorkItemCommand.ShowAllWorkItemsCommand" Collapsed="true">
+    <Position X="10.25" Y="15.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\WorkItemCommand\ShowAllWorkItemsCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Commands.WorkItemCommand.UnassignWorkItemCommand" Collapsed="true">
+    <Position X="4" Y="15.25" Width="2.5" />
+    <InheritanceLine Type="ManagementSystem.Commands.Command" FixedFromPoint="true">
+      <Path>
+        <Point X="21.75" Y="14.812" />
+        <Point X="21.75" Y="15.096" />
+        <Point X="21.083" Y="15.096" Type="JumpStart" />
+        <Point X="20.917" Y="15.096" Type="JumpEnd" />
+        <Point X="5.25" Y="15.096" />
+        <Point X="5.25" Y="15.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\WorkItemCommand\UnassignWorkItemCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ManagementSystem.Models.Abstract.Unit" Collapsed="true">
+    <Position X="11" Y="22.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAABAAAAAQAAAAAQAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Models\Abstract\Units.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ManagementSystem.Models.Abstract.WorkItem" Collapsed="true">
+    <Position X="3.75" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAAQAAgAEAEIIAQAAAAEAAAAAAAAAAAAAAAIgA=</HashCode>
+      <FileName>Models\Abstract\WorkItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ManagementSystem.Models.ActivityHistory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="26.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Models\Common\ActivityHistory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ManagementSystem.Models.Feedback" Collapsed="true">
+    <Position X="3.75" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAEAAAAAAAAAQAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Units\Feedback.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ManagementSystem.Models.Member" Collapsed="true">
+    <Position X="12" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Units\Member.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ManagementSystem.Models.Story" Collapsed="true">
+    <Position X="6" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Units\Story.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ManagementSystem.Models.Team" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="26.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAEAAQAIAAEACAAAAA=</HashCode>
+      <FileName>Models\Units\Team.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ManagementSystem.Models.Common.Comments" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="27" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Models\Common\Comments.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ManagementSystem.Models.Units.Board" Collapsed="true">
+    <Position X="9.75" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Models\Units\Board.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ManagementSystem.Models.Units.Bug" Collapsed="true">
+    <Position X="1.5" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAEAAAAAAAAAAAAACAAAAAAAAQAAAA=</HashCode>
+      <FileName>Models\Units\Bug.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ManagementSystem.Models.Units.ValidationMessages" Collapsed="true">
+    <Position X="14.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAAAAAAAAAAAAEAAAEIAAQAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Models\Units\ValidationMessages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ManagementSystem.Core.Contracts.IDatabase" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIAAAAMIAAQAAgFEAACCBgABgAAIAAABAAAIgIAAE=</HashCode>
+      <FileName>Core\Contracts\IDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ManagementSystem.Core.Contracts.IEngine" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Core\Contracts\IEngine.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ManagementSystem.Core.Contracts.IMenu" Collapsed="true">
+    <Position X="5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Contracts\IMenu.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ManagementSystem.Core.Contracts.IParser" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Core\Contracts\IParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ManagementSystem.Core.Contracts.IReader" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\Readers\IReader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ManagementSystem.Core.Contracts.IWriter" Collapsed="true">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Core\Writer\IWriter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ManagementSystem.Core.Providers.IInstanceHolder" Collapsed="true">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAEAAAAAAIAAABAAAAAAoAAAAABAAAAEAAAA=</HashCode>
+      <FileName>Core\Contracts\IInstanceHolder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ManagementSystem.Core.Factories.IFactory" Collapsed="true">
+    <Position X="7.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACgAAAAAIAAAAAAAAAAAAAAAAAAAhAAEAAAAAA=</HashCode>
+      <FileName>Core\Factories\IFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ManagementSystem.Core.UserInput.IUserInput" Collapsed="true">
+    <Position X="11" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\UserInput\IUserInput.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ManagementSystem.Commands.Contracts.ICommand" Collapsed="true">
+    <Position X="36.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\Contracts\ICommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ManagementSystem.Models.Contracts.IActivityHistory" Collapsed="true">
+    <Position X="3.75" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Models\Contracts\IActivityHistory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ManagementSystem.Models.Contracts.IBoard" Collapsed="true">
+    <Position X="12" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Contracts\IBoard.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ManagementSystem.Models.Contracts.IBug" Collapsed="true">
+    <Position X="6" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAEAAAAAAAAAAAAACAAAAAAAAQAAAA=</HashCode>
+      <FileName>Models\Contracts\IBug.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ManagementSystem.Models.Contracts.IComments" Collapsed="true">
+    <Position X="5.5" Y="27" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Models\Contracts\IComments.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ManagementSystem.Models.Contracts.IFeedback" Collapsed="true">
+    <Position X="1.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Contracts\IFeedback.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ManagementSystem.Models.Contracts.IMember" Collapsed="true">
+    <Position X="9.75" Y="21.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Contracts\IMember.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ManagementSystem.Models.Contracts.IStory" Collapsed="true">
+    <Position X="3.75" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Contracts\IStory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ManagementSystem.Models.Contracts.ITeam" Collapsed="true">
+    <Position X="11.75" Y="26.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAEACAAAAA=</HashCode>
+      <FileName>Models\Contracts\ITeam.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ManagementSystem.Models.Contracts.IWorkItem" Collapsed="true">
+    <Position X="3.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAAAAAgAEAAAAAQAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Models\Contracts\IWorkItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ManagementSystem.Models.Contracts.IUnit" Collapsed="true">
+    <Position X="11" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Models\Contracts\IWorkUnit.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ManagementSystem.Models.Enums.BugStatus" Collapsed="true">
+    <Position X="16.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAABAAAA=</HashCode>
+      <FileName>Models\Enums\BugStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ManagementSystem.Models.Enums.FeedbackStatus" Collapsed="true">
+    <Position X="16.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAACAAAAAAAAAQAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Enums\FeedbackStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ManagementSystem.Models.Enums.Priority" Collapsed="true">
+    <Position X="18.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Models\Enums\Priority.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ManagementSystem.Models.Enums.Severity" Collapsed="true">
+    <Position X="16.5" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAACA=</HashCode>
+      <FileName>Models\Enums\Severity.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ManagementSystem.Models.Enums.StorySize" Collapsed="true">
+    <Position X="18.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Models\Enums\StorySize.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ManagementSystem.Models.Enums.StoryStatus" Collapsed="true">
+    <Position X="18.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Models\Enums\StoryStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
